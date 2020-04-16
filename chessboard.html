@@ -1,11 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="chess.css" rel="stylesheet" type="text/css" />
   <title>Chess</title>
 </head>
+
 <body>
-  
+
+ 
+  <div class="chessboard">
+
+
+    <div class="numbers_top">
+    <div class=>1</div>
+    <div class=>2</div>
+    <div class=>3</div>
+    <div class=>4</div>
+    <div class=>5</div>
+    <div class=>6</div>
+    <div class=>7</div>
+    <div class=>8</div>
+    </div>
+
+
+    <div class="row">
+      <div class="letters_right">A</div>
+      <div class="dark" id="img">
+        <img src="images/black-bishop.png" alt="black bishop" />
+      </div>
+      <div class="light"></div>
+      <div class="dark" id="img">
+        <img src="images/white-knight.png" alt="white-knight" />
+      </div>
+      <div class="light"></div>
+      <div class="dark" id="img">
+        <img src="images/black-king.png" alt="black king" />
+      </div>
+      <div class="light"></div>
+      <div class="dark"></div>
+      <div class="light"></div>
+      <div class="letters_left">A</div>
+    </div>
+
+    <div class="row">
+      <div class="letters_left">B</div>
+      <div class="dark" id="img">
+        <img src="images/black-pawn.png" alt="black pawn"/>
+      </div>
+      <div class="light" id="img">
+        <img src="images/black-knight.png" alt="black knight"/>
+      </div>
+      <div class="dark" id="img">
+        <img src="images/black-pawn.png" alt="black pawn"/>
+      </div>
+      <div class="light" id="img">
+        <img src="images/black-pawn.png" alt="black pawn"/>
+      </div>
+      <div class="dark"></div>
+      <div class="light" id="img">
+        <img src="images/white-rook.png" alt="white rook" />
+      </div>
+      <div class="dark"></div>
+      <div class="light"></div>
+      <div class="letters_right">B</div>
+    </div>
+
+    <div class="row">
+      <div class="letters_right">C</div>
+      <div class="dark"></div>
+      <div class="light" id="img">
+        <img src="images/black-pawn.png" alt="black pawn"/>
+      </div>
+      <div class="dark"></div>
+      <div class="light" id="img">
+        <img src="images/white-pawn.png" alt="white pawn" />
+      </div>
+      <div class="dark"></div>
+      <div class="light" id="img">
+        <img src="images/black-pawn.png" alt="black pawn"/>
+      </div>
+      <div class="dark" id="img">
+        <img src="images/black-bishop.png" alt="black bishop" />
+      </div>
+      <div class="light"></div>
+      <div class="letters_left">C</div>
+    </div>
+
+    <div class="row">
+      <div class="letters_left">D</div>
+      <div class="dark" id="img">
+        <img src="images/white-rook.png" alt="white rook" />
+      </div>
+      <div class="light"></div>
+      <div class="dark" id="img">
+        <img src="images/white-knight.png" alt="white-knight" />
+      </div>
+      <div class="light"></div>
+      <div class="dark" id="img">
+        <img src="images/black-pawn.png" alt="black pawn"/>
+      </div>
+      <div class="light"></div>
+      <div class="dark" id="img">
+        <img src="images/black-pawn.png" alt="black pawn"/>
+      </div>
+      <div class="light"></div>
+      <div class="letters_right">D</div>
+    </div>
+
+    <div class="row">
+      <div class="letters_right">E</div>
+      <div class="dark"></div>
+      <div class="light"></div>
+      <div class="dark" id="img">
+        <img src="images/white-queen.png" alt="white-queen" />
+      </div>
+      <div class="light" id="img">
+        <img src="images/black-queen.png" alt="black queen"/>
+      </div>
+      <div class="dark" id="img">
+        <img src="images/white-pawn.png" alt="white pawn" />
+      </div>
+      <div class="light" id="img">
+        <img src="images/white-pawn.png" alt="white pawn" />
+      </div>
+      <div class="dark"></div>
+      <div class="light"></div>
+      <div class="letters_left">E</div>
+    </div>
+
+    <div class="row">
+      <div class="letters_left">F</div>
+      <div class="dark"></div>
+      <div class="light" id="img">
+        <img src="images/black-pawn.png" alt="black pawn"/>
+      </div>
+      <div class="dark"></div>
+      <div class="light" id="img">
+        <img src="images/white-bishop.png" alt="white bishop" />
+      </div>
+      <div class="dark" id="img">
+        <img src="images/white-king.png" alt=" white-king" />
+      </div>
+      <div class="light"></div>
+      <div class="dark" id='img'>
+        <img src="images/white-pawn.png" alt="white pawn" />
+      </div>
+      <div class="light" id='img'>
+        <img src="images/white-pawn.png" alt="white pawn" />
+      </div>
+      <div class="letters_right">F</div>
+    </div>
+
+    <div class="row">
+      <div class="letters_right">G</div>
+      <div class="dark" id="img">
+        <img src="images/white-pawn.png" alt="white pawn" />
+      </div>
+      <div class="light"></div>
+      <div class="dark"></div>
+      <div class="light" id="img">
+        <img src="images/white-bishop.png" alt="white-bishop" />
+      </div>
+      <div class="dark"></div>
+      <div class="light"></div>
+      <div class="dark" id="img">
+        <img src="images/black-rook.png" alt="black rook />
+      </div>
+      <div class="light"></div>
+      <div class="letters_left">G</div>
+    </div>
+
+    <div class="row">
+      <div class="letters_left">H</div>
+      <div class="dark" id="img">
+        <img src="images/white-pawn.png" alt="white pawn" />
+      </div>
+      <div class="light" id="img">
+        <img src="images/black-knight.png" alt="black knight"/>
+      </div>
+      <div class="dark"></div>
+      <div class="light" id="img">
+        <img src="images/white-pawn.png" alt="white pawn" />
+      </div>
+      <div class="dark"></div>
+      <div class="light" id="img">
+        <img src="images/black-rook.png" alt="black rook />
+      </div>
+      <div class="dark"></div>
+      <div class="light"></div>
+      <div class="letters_right">H</div>
+    </div>
+    
+    <div class="numbers_bottom">
+      <div class=>1</div>
+      <div class=>2</div>
+      <div class=>3</div>
+      <div class=>4</div>
+      <div class=>5</div>
+      <div class=>6</div>
+      <div class=>7</div>
+      <div class=>8</div>
+    </div>
+    
+  </div>
+
 </body>
+
 </html>
