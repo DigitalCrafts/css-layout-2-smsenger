@@ -1,0 +1,421 @@
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #f7e350;
+    --blue: #357eb9;
+    --red: red;
+    --black: black;
+}
+
+.painting {
+    height: 60vw;
+    border: 8px solid #444;
+    display: flex;
+
+}
+
+.has-border {
+    border: 4px solid #444;
+}
+
+
+.has-bottom-border {
+    border-bottom: 8px solid #444;
+}
+
+.has-right-border {
+    border-right: 8px solid #444;
+}
+
+.has-left-border {
+    border-left: 8px solid #444;
+}
+
+.level1a, 
+.level1b {
+    width: 50%;
+    display: flex;
+}
+
+
+.box1a, 
+.box1b {
+    width: 50%;
+    display: flex;
+}
+
+.level2a {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    
+}
+
+.box2a {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.level2b {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2b {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+
+.boxtop {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+
+.boxbottom {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+}
+
+.level3a {
+    height: 10%;
+    background-color: var(--yellow);
+}
+
+.box3a {
+    height: 20%;
+    background-color: var(--blue);
+}
+
+.level3b {
+    height: 20%;
+    background-color: var(--yellow);
+}
+
+.box3b {
+    height: 20%;
+    background-color: var(--red);
+}
+
+
+.level3c {
+    display: flex;
+    height: 20%;
+}
+
+
+.box3c {
+    height: 10%;
+    
+}
+
+.box3d {
+    height: 10%;
+}
+
+.level3d {
+    height: 10%;
+    
+}
+
+.box3d {
+    display: flex;
+    height: 20%;
+}
+
+.level3e {
+    height: 20%;
+    background-color: var(--blue);
+}
+
+.box3e {
+    height: 20%;
+    background-color: var(--yellow);
+}
+
+.level3f {
+    height: 20%;
+    background-color: var(--red);
+}
+
+.box3f {
+    display: flex;
+    height: 10%;
+}
+
+.level3g {
+    height: 10%;
+    display: flex;
+}
+
+.box3g {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.level4a,
+.level4b {
+    width: 50%;
+}
+
+.box4a, 
+.box4b {
+    width: 50%;
+}
+
+.box4c {
+    display: flex;
+    flex-direction: row;
+}
+
+.box4d {
+    width: 50%;
+    background-color: var(--black);
+}
+
+.level4c {
+    width: 40%;
+}
+
+.box4c {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.level4d {
+    width: 60%;
+    background-color: none;   /*This has a light blue background for some reason...*/
+}
+
+.box4d {
+    width: 100%;
+    height: 100%;
+    background-color: var(--black);
+   
+}
+
+.level3h {
+    height: 40%;
+    display: flex;
+}
+
+
+.box3h {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+
+
+.level4e {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box4e {
+    height: 37%;
+    background-color: var(--yellow);
+    display: flex;
+}
+
+.level5a, 
+.level5b {
+    height: 50%;
+}
+
+.box5a {
+    height: 100%;
+    width: 50%;
+    background-color: var(--yellow);
+}
+
+.box5b {
+    width: 50%;
+    background-color: var(--black);
+}
+
+.level4f {
+    width: 70%;
+    background-color: var(--red);
+}
+
+.box4f {
+    height: 37%;
+    width: 100%;
+    background-color: var(--yellow);
+}
+
+.level3i {
+    height: 50%;
+    display: flex;
+}
+
+.box3i {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+}
+
+.box3j {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+
+.box3k {
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    width: 100%;
+}
+
+.box3l {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.level4g {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box4g {
+    height: 37%;
+    width: 100%;
+    background-color: var(--black);
+}
+
+.level5c {
+    height: 20%;
+}
+
+.level5d {
+    height: 60%;
+    background-color: var(--yellow);
+}
+
+
+.level5e {
+    height: 20%;
+}
+
+.level4h {
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+}
+
+.box4h {
+    height: 36%;
+}
+
+.level5f {
+    height: 40%;
+    background-color: var(--black);
+}
+
+.level5g {
+    height: 40%;
+}
+
+.level5h {
+    height: 20%
+}
+
+.level4i {
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+}
+
+.box4i {
+    height: 36%;
+}
+
+.box4j {
+    height: 20%;
+    width: 96%;
+}
+
+.box4k {
+    height: 42%;
+    width: 100%;
+}
+
+.box4l {
+    height: 42%;
+    background: var(--black);
+}
+
+.box4m {
+    height: 19%;
+    width: 100%;
+}
+
+.box4n {
+    width: 100%;
+    height: 60%;
+    background-color: var(--yellow);
+}
+
+.box4p {
+    width: 100%;
+    height: 80%;
+    background-color: var(--blue);
+}
+
+.box4q {
+    width: 80%;
+}
+
+.box4s {
+    height: 40%;
+}
+
+.box4t {
+    height: 40%
+}
+
+.level5i {
+    height: 20%;
+}
+
+.level5j {
+    height: 20%;
+}
+
+.level5k {
+    height: 20%;
+    background-color: var(--black);
+}
+
+.level5l {
+    height: 40%;
+    display: flex;
+}
+
+.level6a {
+    width: 50%;
+    background-color: var(--yellow);
+}
+
+.level6b {
+    width: 50%;
+}

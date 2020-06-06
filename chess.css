@@ -1,0 +1,91 @@
+* {
+    border: 2px rgb(255, 0, 221);
+    box-sizing: border-box;
+}
+
+.chessboard {
+    height: 100vw
+}
+
+.row {
+    display: flex;
+    height: 12.5%;
+}
+
+.row:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
+.dark {
+    display: flex;
+    border: 3px rgb(255, 0, 221);
+    background-color: #304541;
+    height: 20px;
+    width: 12.5%;
+    height: 100%;
+
+}
+
+
+.light {
+    display: flex;
+    border: 1px rgb(255, 0, 221);
+    background-color: #7bb3a8;
+    height: 20px;
+    width: 12.5%;
+    height: 100%;
+}
+
+.tile:nth-child(even) {
+    background-color: ;
+}
+
+
+.numbers_top {            /*need to move first few numbers right*/
+        display: flex;
+        height: 7.5%;
+        width: 94.5%;
+        justify-content: space-around;
+        font-size: 120px;
+        align-items: flex-end;
+}
+
+.numbers_bottom {        /*need to move first few numbers right*/
+    display: flex;
+    height: 7.5%;
+    width: 94.5%;
+    justify-content: space-around;
+    font-size: 120px;
+    align-items: flex-end;
+}
+
+
+
+row:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+
+
+.letters_left {
+    display: flex;
+    height: 69.5%;
+    width: 6%;
+    justify-content: flex-start;
+    font-size: 120px;
+    align-items: flex-end;
+    }
+
+.letters_right {
+    display: flex;
+    height: 69.5%;
+    width: 6%;
+    justify-content: flex-end;
+    font-size: 120px;
+    align-items: flex-end;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+}

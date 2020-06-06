@@ -1,0 +1,76 @@
+
+
+.modal-dialog {
+    border: 6px solid black; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 35%;
+    right: 5px;
+    width: 35%;   
+    margin-top: 3%;
+    height: 30%;    /*why doesn't this work?*/
+    background-color: white;
+    filter: drop-shadow(30px 10px 12px rgb(39, 39, 39));
+    border-radius: .5em;
+}
+
+.modal-header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(129, 129, 129);
+    padding: 5px;
+}
+
+.modal-title {
+    font: 56px;
+    color: white;
+    height: 60%;
+    padding: 15px 0px 10px 10px; 
+}
+
+.modal-content {
+    font: 44px;
+    background-color: white;
+    padding: 15px 0 30px 15px;
+    
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 10%;
+}
+
+.button {
+    padding: 5px;
+    margin: 10px;
+    border-radius: .5em;
+}
+
+#opaque {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    display: none;
+    background-color: black;
+    filter: alpha(opacity=30);
+    opacity: 0.4;
+}
+* html #opaque {
+    position: absolute;
+}
+
+.main-content { 
+    z-index: 98;
+    display: inline-block; 
+    font: serif;
+    font-size: 29px; 
+    font-family: 'Bitter', serif;
+} 
+
